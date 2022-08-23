@@ -1,0 +1,59 @@
+.container {
+    padding-top: 60px;
+    font: normal 20pt 'Kanit';
+    display: flex;
+    flex-direction: column;
+}
+
+.pu-container {
+    padding: 40px 0;
+    background-image: url('../../public/media/backgroundHome.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pu-logo {
+    padding: 40px 0;
+}
+
+.sobre-container {
+    background-color: rgb(161, 161, 161);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    border-top: solid black 1px;
+}
+
+.sobre-container p {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.imagens {
+    padding: 10px 0;
+    background-color: rgb(110, 110, 110);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container {
+    padding: 0 10px;
+    font: normal 12pt 'Arial';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.img-container img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 15px 10px;
+}

@@ -1,0 +1,49 @@
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    padding: 20px 0;
+}
+
+.anotacoes-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 15%;
+}
+
+.anotacoes-titulo {
+    background-color: rgb(161, 161, 161);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid black 1px;
+}
+
+.item-tecnologia {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(160, 82, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: auto;
+    cursor: pointer;
+    min-width: 250px;
+    font: bold 18pt 'Arial';
+    transition: all 0.5s ease;
+}
+
+.item-tecnologia:hover {
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration: 1px solid white;
+}
+
+.item-tecnologia img {
+    max-width: 150px;
+    max-height: 150px;
+    padding-bottom: 15px;
+}

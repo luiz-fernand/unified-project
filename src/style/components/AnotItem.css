@@ -1,0 +1,28 @@
+.anotacoes-container {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-anotacoes {
+    width: 100%;
+    background-color: rgb(161, 161, 161);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: bold 15pt 'Oswald';
+}
+
+.titulo-anotacoes img {
+    width: 100px;
+    margin: 0 20px;
+}
+
+.titulo-prim {
+    font: bold 15pt 'Arial';
+}

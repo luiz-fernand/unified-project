@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "titulo": "HTML",
+        "logo": "/media/HTML-logo.png",
+        "home": true
+    },
+    {
+        "id": 2,
+        "titulo": "CSS",
+        "logo": "/media/CSS-logo.png",
+        "home": true
+    },
+    {
+        "id": 3,
+        "titulo": "JavaScript",
+        "logo": "/media/JS-logo.png",
+        "home": true
+    },
+    {
+        "id": 4,
+        "titulo": "NodeJS",
+        "logo": "/media/Node-logo.png",
+        "home": false
+    },
+    {
+        "id": 5,
+        "titulo": "ReactJS",
+        "logo": "/media/React-logo.png",
+        "home": true
+    },
+    {
+        "id": 6,
+        "titulo": "JSON",
+        "logo": "/media/JSON-logo.png",
+        "home": false
+    },
+    {
+        "id": 7,
+        "titulo": "Git",
+        "logo": "/media/Git-logo.png",
+        "home": false
+    },
+    {
+        "id": 8,
+        "titulo": "MySQL",
+        "logo": "/media/MySQL-logo.png",
+        "home": false
+    }
+]
