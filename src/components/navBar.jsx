@@ -6,7 +6,7 @@ import '../style/components/navBar.css'
 const navBar = () => {
     return (
         <div className='navBar-container'>
-            <img src={process.env.PUBLIC_URL + '/media/PU-logo-title.png'} title='PU Logo' alt='PU Logo'/>
+            <img src={process.env.PUBLIC_URL + '/media/UP-logo-title.png'} title='UP Logo' alt='UP Logo'/>
             <nav className='nav-container'>
                 <Link to='/'>Home</Link>
                 <Link to='/anotacoes'>Anotações</Link>

@@ -7,7 +7,6 @@ import tecno from '../data/tecnologias.json'
 
 const AnotItem = () => {
     const params = useParams()
-    var numItem = 0
     var idTec = 0
     tecno.map(te => (te.titulo===params.tituloAnot ? (idTec = te.id) : null))
     
@@ -21,12 +20,11 @@ const AnotItem = () => {
             {anotacao.map(anot => (
                 anot.tecnologia === idTec ? (
                     <div className='anotacao' key={anot.id}>
-                        {/*numItem+=1 ARRUMAR*/}
                         <h2>{anot.titulo}</h2>
                     </div>
                 ) : null
             ))}
-            {numItem === 0 ? (
+            {anotacao.tecnologia !== idTec ? (
                 <div className='naoAnotado'>
                     <h1>Nenhuma anotação foi encontrada.</h1>
                 </div>

@@ -21,7 +21,6 @@
 }
 
 .item-tecnologia {
-    padding: 20px;
     margin: 10px;
     background-color: rgb(160, 82, 240);
     display: flex;
@@ -45,5 +44,11 @@
 .item-tecnologia img {
     max-width: 150px;
     max-height: 150px;
-    padding-bottom: 15px;
+    margin: 15px 0;
+}
+
+.item-tecnologia p {
+    background-color: rebeccapurple;
+    width: 100%;
+    padding: 5px 0;
 }
