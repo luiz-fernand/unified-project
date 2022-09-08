@@ -26,3 +26,11 @@
 .titulo-prim {
     font: bold 15pt 'Arial';
 }
+
+.naoAnotado {
+    padding: 20% 15%;
+}
+
+.anotacao {
+    margin: 15px 0;
+}

@@ -5,6 +5,27 @@ import '../style/components/AnotItem.css'
 import anotacao from '../data/anotacoes.json'
 import tecno from '../data/tecnologias.json'
 
+const anotLista = (id) => {
+    var con = 0
+    anotacao.map(anot => (anot.tecnologia === id ? null : con++))
+
+    if(con > 0) return (
+        <div className='naoAnotado'>
+            <h2>Nenhuma anotação encontrada ;-;</h2>
+        </div>
+    )
+    else return (
+        anotacao.map(anot => (
+            anot.tecnologia === id ? (
+                <div className='anotacao'>
+                    <h2>{anot.titulo}</h2>
+                    <p>{anot.conteudo}</p>
+                </div>
+            ) : null
+        ))
+    )
+}
+
 const AnotItem = () => {
     const params = useParams()
     var idTec = 0
@@ -17,18 +38,7 @@ const AnotItem = () => {
                 <img key={tecno[idTec-1].id} src={process.env.PUBLIC_URL + tecno[idTec-1].logo} alt={tecno[idTec-1].titulo}/>
                 <h1>{params.tituloAnot}</h1>
             </div>
-            {anotacao.map(anot => (
-                anot.tecnologia === idTec ? (
-                    <div className='anotacao' key={anot.id}>
-                        <h2>{anot.titulo}</h2>
-                    </div>
-                ) : null
-            ))}
-            {anotacao.tecnologia !== idTec ? (
-                <div className='naoAnotado'>
-                    <h1>Nenhuma anotação foi encontrada.</h1>
-                </div>
-            ) : null}
+            {anotLista(idTec)}
         </div>
     )
 }
