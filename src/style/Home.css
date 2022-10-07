@@ -39,6 +39,7 @@
     padding: 10px 0;
     background-color: rgb(110, 110, 110);
     width: 100%;
+    color: white;
     display: flex;
     justify-content: center;
 }

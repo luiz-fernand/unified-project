@@ -22,13 +22,13 @@
     padding: 0 50px;
 }
 
-a {
+.nav-container a {
     color: white;
     font: normal 15pt 'Oswald';
     text-decoration: none;
     padding: 15px 20px;
     transition: all 0.5s ease;
 }
-a:hover {
+.nav-container a:hover {
     background-color: rgb(160, 82, 240);
 }
