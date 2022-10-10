@@ -10,10 +10,13 @@ const Home = () => {
         <h1>Olá! Bem vindo ao</h1>
         <img className='up-logo' src={process.env.PUBLIC_URL + '/media/UP-logo-grande.png'} alt='UP Logo'/>
       </div>
+      <div className='banner-container'>
+
+      </div>
       <div className='sobre-container'>
         <h1 className='sobre-title'>Sobre</h1>
-        <p>Me chamo Luiz, e esse é meu Projeto Unificado, cuja função é a de unir minhas anotações
-          e exercícios com estas tecnologias:</p>
+        <p>Olá! Me chamo Luiz, e esse é meu Projeto Unificado, cuja função é a de unir meus conhecimentos,
+           anotações e exercícios de várias tecnologias, mas principalmente dessas:</p>
         <div className='imagens'>
           {TenoJson.map(tecnologias => (
             tecnologias.home ? (
@@ -24,9 +27,9 @@ const Home = () => {
             ) : null
           ))}
         </div>
-        <p>Assim, com todas elas em um só lugar, me possibilitando uma maior compreensão
+        <p>Assim, com todas elas em um só lugar, me possibilita uma maior compreensão
           e organização em minhas dúvidas e requisições próprias. Também consequentemente,
-          acarretando um estudo por parte do uso de tais tecnologias para o desenvolvimento do mesmo.</p>
+          acarretando um estudo por parte do uso de tais tecnologias para o desenvolvimento deste mesmo site.</p>
       </div>
     </div>
   )

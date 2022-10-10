@@ -20,6 +20,13 @@
     padding: 40px 0;
 }
 
+.banner-container {
+    width: 100%;
+    background-color: rgb(223, 223, 223);
+    height: 250px;
+    border-top: solid 1px black;
+}
+
 .sobre-container {
     background-color: rgb(161, 161, 161);
     width: 100%;
@@ -42,6 +49,7 @@
     color: white;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .img-container {
@@ -56,4 +64,10 @@
     max-width: 100px;
     max-height: 100px;
     margin: 15px 10px;
+}
+
+@media (max-width: 570px){
+    .up-logo {
+        width: 90%;
+    }
 }

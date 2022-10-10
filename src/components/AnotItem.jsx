@@ -5,7 +5,7 @@ import '../style/components/AnotItem.css'
 import anotacao from '../data/anotacoes.json'
 import tecno from '../data/tecnologias.json'
 
-const anotLista = (id) => {
+const AnotLista = (id) => {
     var con = 0
     anotacao.map(anot => (anot.tecnologia === id ? null : con++))
 
@@ -38,7 +38,7 @@ const AnotItem = () => {
                 <img key={tecno[idTec-1].id} src={process.env.PUBLIC_URL + tecno[idTec-1].logo} alt={tecno[idTec-1].titulo}/>
                 <h1>{params.tituloAnot}</h1>
             </div>
-            {anotLista(idTec)}
+            {AnotLista(idTec)}
         </div>
     )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../style/components/footer.css'
 
-const footer = () => {
+const Footer = () => {
     return (
         <div className='footer-container'>
             <p className='p1'>©2022</p>
@@ -11,4 +11,4 @@ const footer = () => {
     )
 }
  
-export default footer
+export default Footer
