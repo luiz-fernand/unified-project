@@ -20,6 +20,7 @@ const Referencias = () => {
                     <a className='link-ref' href='https://git-scm.com/downloads/logos' target={'_blank'} rel='noreferrer'>Git - Git</a>
                     <a className='link-ref' href='https://www.freepnglogos.com/images/logo-mysql-26353.html' target={'_blank'} rel='noreferrer'>Freepnglogos - MySQL</a>
                     <a className='link-ref' href='https://br.freepik.com/vetores-premium/paisagem-de-montanha-preto-e-branco-com-floresta-de-pinheiros_7038778.htm' target={'_blank'} rel='noreferrer'>Freepik - Background</a>
+                    <a className='link-ref' href='https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg' target={'_blank'} rel='noreferrer'>Wikimedia - VS Code</a>
                 </div>
             </div>
         </div>

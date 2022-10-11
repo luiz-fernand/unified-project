@@ -46,5 +46,11 @@
         "titulo": "MySQL",
         "logo": "/media/MySQL-logo.png",
         "home": false
+    },
+    {
+        "id": 9,
+        "titulo": "Visual Studio Code",
+        "logo": "/media/VSC-logo.png",
+        "home": false
     }
 ]
