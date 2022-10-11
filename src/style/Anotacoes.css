@@ -1,8 +1,9 @@
-.container {
+.anot-container {
     text-align: center;
+    padding-top: 60px;
 }
 
-.container h2 {
+.anot-container h2 {
     padding: 20px 0;
 }
 

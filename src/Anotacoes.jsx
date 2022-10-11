@@ -15,7 +15,7 @@ const ItensTecno = (tecno) => {
 
 const Anotacoes = () => {
     return (
-        <div className='container' >
+        <div className='anot-container' >
             <h1 className='anotacoes-titulo'>Anotações</h1>
             <h2>Escolha a tecnologia que está procurando:</h2>
             <div className='anotacoes-lista'>
