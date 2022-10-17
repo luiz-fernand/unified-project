@@ -1,9 +1,7 @@
 import styled from 'styled-components'
 
-export const NavContainer = styled.section`
+export const NavContainer = styled.div`
     background-color: rebeccapurple;
-    color: white;
-    font: bold 12pt Arial;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -12,6 +10,7 @@ export const NavContainer = styled.section`
     position: fixed;
     border-bottom: solid black 1px;
     padding: 0 20px;
+    z-index: 4;
 
     .nav-img {
         max-height: 60px;
@@ -38,6 +37,7 @@ export const NavContainer = styled.section`
         height: 30px;
         width: 30px;
         cursor: pointer;
+        color: white;
     }
 
     @media (min-width: 850px){

@@ -1,6 +1,6 @@
 import styled, {css} from 'styled-components'
 
-export const ContainerMob = styled.section`
+export const ContainerMob = styled.div`
     position: fixed;
     width: 100%;
     height: 100%;
