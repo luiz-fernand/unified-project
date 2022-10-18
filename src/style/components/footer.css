@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin-right: 10px;
 }
 
 .me-present {
@@ -33,6 +34,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    margin-left: 10px;
 }
 .link-foot-contato {
     text-decoration: none;
@@ -47,4 +49,16 @@
 
 .link-foot-contato:hover {
     background-color: rgb(160, 82, 240);
+}
+
+@media (max-width: 710px){
+    .site-info {
+        margin: 25px 0;
+        align-items: center;
+    }
+
+    .contato-basico {
+        margin: 25px 0;
+        align-items: center;
+    }
 }
