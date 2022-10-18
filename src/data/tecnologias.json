@@ -3,7 +3,7 @@
         "id": 1,
         "titulo": "HTML",
         "cor": "#e44d26",
-        "logo": "/media/HTML-logo.png",
+        "logo": "/media/logos tec/HTML-logo.png",
         "home": true,
         "exercicio": true
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "titulo": "CSS",
         "cor": "#264de4",
-        "logo": "/media/CSS-logo.png",
+        "logo": "/media/logos tec/CSS-logo.png",
         "home": true,
         "exercicio": true
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "titulo": "JavaScript",
         "cor": "#f7df1e",
-        "logo": "/media/JS-logo.png",
+        "logo": "/media/logos tec/JS-logo.png",
         "home": true,
         "exercicio": true
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "titulo": "NodeJS",
         "cor": "#80bd41",
-        "logo": "/media/Node-logo.png",
+        "logo": "/media/logos tec/Node-logo.png",
         "home": false,
         "exercicio": false
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "titulo": "ReactJS",
         "cor": "#53c1de",
-        "logo": "/media/React-logo.png",
+        "logo": "/media/logos tec/React-logo.png",
         "home": true,
         "exercicio": true
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "titulo": "JSON",
         "cor": "#727272",
-        "logo": "/media/JSON-logo.png",
+        "logo": "/media/logos tec/JSON-logo.png",
         "home": false,
         "exercicio": false
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "titulo": "Git",
         "cor": "#f05033",
-        "logo": "/media/Git-logo.png",
+        "logo": "/media/logos tec/Git-logo.png",
         "home": false,
         "exercicio": false
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "titulo": "MySQL",
         "cor": "#4479a1",
-        "logo": "/media/MySQL-logo.png",
+        "logo": "/media/logos tec/MySQL-logo.png",
         "home": false,
         "exercicio": false
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "titulo": "Visual Studio Code",
         "cor": "#1585d0",
-        "logo": "/media/VSC-logo.png",
+        "logo": "/media/logos tec/VSC-logo.png",
         "home": false,
         "exercicio": false
     }

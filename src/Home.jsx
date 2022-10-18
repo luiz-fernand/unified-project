@@ -8,7 +8,7 @@ const Home = () => {
     <div className='container'>
       <div className='up-container'>
         <h1>Olá! Bem vindo ao</h1>
-        <img className='up-logo' src={process.env.PUBLIC_URL + '/media/UP-logo-grande.png'} alt='UP Logo'/>
+        <img className='up-logo' src={process.env.PUBLIC_URL + '/media/logos up/UP-logo-grande.png'} alt='UP Logo'/>
       </div>
       <div className='banner-container'>
 

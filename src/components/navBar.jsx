@@ -12,7 +12,7 @@ const NavBar = () => {
         <>
             <NavMobile menuIsVisible={menuIsVisible} setMenuIsVisible={setMenuIsVisible}/>
             <NavContainer>
-                <img className='nav-img' src={process.env.PUBLIC_URL + '/media/UP-logo-title.png'} title='UP Logo' alt='UP Logo'/>
+                <img className='nav-img' src={process.env.PUBLIC_URL + '/media/logos up/UP-logo-title.png'} title='UP Logo' alt='UP Logo'/>
                 <nav className='nav-container'>
                     <Link className='link-nav-pr' to='/'>Home</Link>
                     <Link className='link-nav-pr' to='/anotacoes'>Anotações</Link>
