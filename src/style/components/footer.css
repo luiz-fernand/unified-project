@@ -1,14 +1,50 @@
 .footer-container {
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(51, 17, 85);
     color: white;
     display: flex;
-    padding: 0 10px;
+    width: 100%;
+    justify-content: space-around;
+    padding: 15px;
+    border-top: solid black 1px;
+    flex-wrap: wrap;
 }
 
-.p1 {
-    flex: 1;
+.site-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.p2 {
-    justify-content: right;
+.me-present {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.me-img {
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.contato-basico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.link-foot-contato {
+    text-decoration: none;
+    background-color: rebeccapurple;
+    color: white;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.link-foot-contato:hover {
+    background-color: rgb(160, 82, 240);
 }
