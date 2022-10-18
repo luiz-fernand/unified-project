@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "titulo": "Freepik - Background",
+        "link": "https://br.freepik.com/vetores-premium/paisagem-de-montanha-preto-e-branco-com-floresta-de-pinheiros_7038778.htm"
+    },
+    {
+        "id": 2,
+        "titulo": "Freepnglogos - MySQL",
+        "link": "https://www.freepnglogos.com/images/logo-mysql-26353.html"
+    },
+    {
+        "id": 3,
+        "titulo": "Git - Git",
+        "link": "https://git-scm.com/downloads/logos"
+    },
+    {
+        "id": 4,
+        "titulo": "Seeklogo - Node",
+        "link": "https://seeklogo.com/vector-logo/273749/node-js"
+    },
+    {
+        "id": 5,
+        "titulo": "Seeklogo - React",
+        "link": "https://seeklogo.com/vector-logo/273845/react"
+    },
+    {
+        "id": 6,
+        "titulo": "W3C - HTML",
+        "link": "https://www.w3.org/html/logo/"
+    },
+    {
+        "id": 7,
+        "titulo": "Wikimedia - CSS",
+        "link": "https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg"
+    },
+    {
+        "id": 8,
+        "titulo": "Wikimedia - JS",
+        "link": "https://commons.wikimedia.org/wiki/File:JavaScript-logo.png"
+    },
+    {
+        "id": 9,
+        "titulo": "Wikimedia - JSON",
+        "link": "https://commons.wikimedia.org/wiki/File:JSON_vector_logo.svg"
+    },
+    {
+        "id": 10,
+        "titulo": "Wikimedia - VS Code",
+        "link": "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg"
+    }
+]

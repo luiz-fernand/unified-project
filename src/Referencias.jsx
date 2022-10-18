@@ -1,27 +1,32 @@
 import React from 'react'
 
+import RefLinks from './data/referencias.json'
 import './style/Referencias.css'
+import {BsImages, BsPeopleFill} from 'react-icons/bs'
 
 const Referencias = () => {
     return (
-        <div className='container'>
+        <div className='ref-container'>
             <h1 className='referencias-titulo'>Referências</h1>
-            <h2>Imagens</h2>
             <div className='imagens-ref'>
-                <p>Algumas imagens foram utilizadas sem a permissão de seus criadores, sem nenhum interesse comercial como foi proposto,
-                     e somente para fins estéticos, úteis e de aprendizado, deixo a referência dos mesmos:</p>
-                <div className='links'>
-                    <a className='link-ref' href='https://www.w3.org/html/logo/' target={'_blank'} rel='noreferrer'>W3C - HTML</a>
-                    <a className='link-ref' href='https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg' target={'_blank'} rel='noreferrer'>Wikimedia - CSS</a>
-                    <a className='link-ref' href='https://commons.wikimedia.org/wiki/File:JavaScript-logo.png' target={'_blank'} rel='noreferrer'>Wikimedia - JS</a>
-                    <a className='link-ref' href='https://seeklogo.com/vector-logo/273749/node-js' target={'_blank'} rel='noreferrer'>Seeklogo - Node</a>
-                    <a className='link-ref' href='https://seeklogo.com/vector-logo/273845/react' target={'_blank'} rel='noreferrer'>Seeklogo - React</a>
-                    <a className='link-ref' href='https://commons.wikimedia.org/wiki/File:JSON_vector_logo.svg' target={'_blank'} rel='noreferrer'>Wikimedia - JSON</a>
-                    <a className='link-ref' href='https://git-scm.com/downloads/logos' target={'_blank'} rel='noreferrer'>Git - Git</a>
-                    <a className='link-ref' href='https://www.freepnglogos.com/images/logo-mysql-26353.html' target={'_blank'} rel='noreferrer'>Freepnglogos - MySQL</a>
-                    <a className='link-ref' href='https://br.freepik.com/vetores-premium/paisagem-de-montanha-preto-e-branco-com-floresta-de-pinheiros_7038778.htm' target={'_blank'} rel='noreferrer'>Freepik - Background</a>
-                    <a className='link-ref' href='https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg' target={'_blank'} rel='noreferrer'>Wikimedia - VS Code</a>
+                <div className='sub-titulo-ref'>
+                    <BsImages className='svg-ref'/>
+                    <h2>Imagens</h2>
                 </div>
+                <p>Algumas imagens foram utilizadas sem a permissão de seus criadores, sem nenhum interesse comercial como foi proposto,
+                     e somente para fins estéticos, úteis e de aprendizado. Sendo assim, deixo a referência dos mesmos para que o crédito
+                     permaneça com seus devidos criadores:</p>
+                <div className='ref-links'>
+                    {RefLinks.map(refer => (<a className='link-ref' href={refer.link} target={'_blank'} rel='noreferrer'>{refer.titulo}</a>))}
+                </div>
+            </div>
+            <div className='colab-ref'>
+                <div className='sub-titulo-ref colab'>
+                    <BsPeopleFill className='svg-ref'/>
+                    <h2>Colaboradores</h2>
+                </div>
+                <h3>Aulas/Aprendizado</h3>
+                
             </div>
         </div>
     )
