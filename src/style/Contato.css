@@ -1,0 +1,60 @@
+.contat-container {
+    padding-top: 60px;
+    padding-bottom: 35px;
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.contat-container p {
+    padding: 10px 0;
+    font-size: 15pt;
+}
+
+.titulo-contato {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #9625ff  10%, #ff3838 100%);
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 40pt;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid black 1px;
+}
+
+.img-contato {
+    width: 300px;
+    border-radius: 150px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.sobre-mim-contato {
+    padding: 20px 0;
+}
+.mensagem-mim {
+    margin: 0 10%;
+}
+
+.redes-sociais-contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.contato-rede {
+    text-decoration: none;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    font-size: 15pt;
+    transition: all 0.3s ease;
+}
+
+.contato-rede:hover {
+    background-color: rgb(160, 82, 240);
+}
