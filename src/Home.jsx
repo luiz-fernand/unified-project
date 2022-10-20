@@ -5,7 +5,7 @@ import TenoJson from './data/tecnologias.json'
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div className='home-container'>
       <div className='up-container'>
         <h1>Olá! Bem vindo ao</h1>
         <img className='up-logo' src={process.env.PUBLIC_URL + '/media/logos up/UP-logo-grande.png'} alt='UP Logo'/>

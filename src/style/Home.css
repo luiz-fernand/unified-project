@@ -1,4 +1,4 @@
-.container {
+.home-container {
     padding-top: 60px;
     font: normal 20pt 'Kanit';
     display: flex;
@@ -69,5 +69,9 @@
 @media (max-width: 570px){
     .up-logo {
         width: 90%;
+    }
+
+    .home-container {
+        font-size: 15pt;
     }
 }
